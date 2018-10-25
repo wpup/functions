@@ -1,0 +1,42 @@
+{
+  "name": "wpup/functions",
+  "type": "wordpress-plugin",
+  "license": "MIT",
+  "description": "Bring functions into WordPress REST API",
+  "homepage": "https://github.com/wpup/functions",
+  "authors": [
+    {
+      "name": "Fredrik Forsmo",
+      "email": "fredrik.forsmo@gmail.com",
+      "homepage": "https://github.com/frozzare"
+    }
+  ],
+ "autoload": {
+    "files": [
+      "src/helpers.php"
+    ],
+    "classmap": [
+      "src/"
+    ]
+ },
+  "keywords": [
+    "api",
+    "functions",
+    "rest",
+    "wordpress"
+  ],
+  "require": {
+    "php": "^7.0",
+    "composer/installers": "~1.0"
+  },
+  "require-dev": {
+    "frozzare/wp-test-suite": "~1.0",
+    "wp-coding-standards/wpcs": "dev-develop"
+  },
+  "scripts": {
+    "post-install-cmd": "if [ -f vendor/bin/phpcs ]; then \"vendor/bin/phpcs\" --config-set installed_paths vendor/wp-coding-standards/wpcs; fi",
+    "post-update-cmd" : "if [ -f vendor/bin/phpcs ]; then \"vendor/bin/phpcs\" --config-set installed_paths vendor/wp-coding-standards/wpcs; fi"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
