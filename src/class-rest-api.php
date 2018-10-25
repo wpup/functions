@@ -1,6 +1,6 @@
 <?php
 
-namespace Functions;
+namespace WPUP\Functions;
 
 use WP_Error;
 use WP_REST_Request;

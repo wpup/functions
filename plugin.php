@@ -19,5 +19,5 @@ if ( file_exists( __DIR__ . '/vendor/autoload.php' ) ) {
  * Bootstrap plugin.
  */
 add_action( 'plugins_loaded', function () {
-    new Functions\REST_API;
+    new WPUP\Functions\REST_API;
 } );
