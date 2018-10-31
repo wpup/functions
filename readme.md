@@ -52,7 +52,7 @@ Short documenation about filters, read the source code to find out more about ea
 
 - `functions_file` - Modify file path
 - `functions_handle` - Modify function/method string name (that are used for `call_user_func`)
-- `functions_directories` - Modify which directories the plugin should look for functions file. Default is `wp-content/themes/NAME/functions`
+- `functions_directories` - Modify which directories the plugin should scan for functions files. Default is `wp-content/themes/NAME/functions`
 
 ## License
 
