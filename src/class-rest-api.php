@@ -19,14 +19,7 @@ class REST_API {
      * REST API construct.
      */
     public function __construct() {
-		add_action( 'rest_api_init', [$this, 'rest_api_init'] );
         add_action( 'rest_api_init', [$this, 'register_routes'] );
-    }
-
-    /**
-     * REST API init function.
-     */
-    public function rest_api_init() {
     }
 
     /**
