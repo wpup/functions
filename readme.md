@@ -22,7 +22,7 @@ GET /wp-json/functions/v1/hello
 "Hello, world"
 ```
 
-Supported HTTP methods are for each function file are:
+Supported HTTP methods for each function file are:
 
 `GET, POST, PUT, PATCH, DELETE`
 
