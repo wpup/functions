@@ -26,9 +26,11 @@ Supported HTTP methods are for each function file are:
 
 `GET, POST, PUT, PATCH, DELETE`
 
-Namespaces are supported as well as classes.
+Namespaces are supported and classes.
 
-```
+```php
+<?php
+
 namespace MyNamespace;
 
 class MyClass {
