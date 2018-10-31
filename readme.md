@@ -4,7 +4,7 @@ Bring functions into WordPress REST API.
 
 ## Example
 
-Create `hello.php` in `wp-content/themes/NAME/functions/hello.php'`
+Create `hello.php` in `wp-content/themes/NAME/functions/hello.php`
 
 ```php
 <?php
