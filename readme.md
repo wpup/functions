@@ -26,6 +26,18 @@ Supported HTTP methods are for each function file are:
 
 `GET, POST, PUT, PATCH, DELETE`
 
+Namespaces are supported as well as classes.
+
+```
+namespace MyNamespace;
+
+class MyClass {
+	public function handler($request) {
+		return 'Hello, world';
+	}
+}
+```
+
 ## Install
 
 ```
