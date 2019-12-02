@@ -1,5 +1,7 @@
 # REST API Functions
 
+[![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)
+
 Bring functions into WordPress REST API.
 
 ## Example
